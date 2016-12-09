@@ -1,0 +1,24 @@
+{
+    "name": "php/packagist-test",
+    "type": "library",
+    "description": "Testing",
+    "keywords": ["test"],
+    "homepage": "https://github.com/salathe/packagist-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Cowburn",
+            "email": "salathe@php.net",
+            "homepage": "http://php.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PackagistTest": "src"
+        }
+    }
+}
